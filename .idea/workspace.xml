@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74eadf4c-369c-427e-a1d6-fb0e1136a6b3" name="Default" comment="[add] ST 2.3&#10;">
-      <change type="DELETED" beforePath="D:\temp\cyberiansoft\phonegap-app-hello-world\www\img\logo.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/app.css" afterPath="$PROJECT_DIR$/www/css/app.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app.js" afterPath="$PROJECT_DIR$/www/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="phonegap-app-hello-world.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -99,7 +96,7 @@
       <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="31" selection-start="1593" selection-end="1593" vertical-scroll-proportion="0.3079646" vertical-offset="608" max-vertical-offset="3519">
+            <state line="48" column="40" selection-start="1635" selection-end="1635" vertical-scroll-proportion="0.39823008" vertical-offset="591" max-vertical-offset="3519">
               <folding />
             </state>
           </provider>
@@ -481,7 +478,7 @@
       <changelist id="74eadf4c-369c-427e-a1d6-fb0e1136a6b3" name="Default" comment="" />
       <created>1398381749156</created>
       <updated>1398381749156</updated>
-      <workItem from="1398381758000" duration="7481000" />
+      <workItem from="1398381758000" duration="8272000" />
     </task>
     <task id="LOCAL-00001" summary="[upd] config">
       <created>1398382572281</created>
@@ -491,7 +488,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7481000" />
+    <option name="totallyTimeSpent" value="8272000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1374" height="742" extended-state="6" />
@@ -591,7 +588,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="31" selection-start="1593" selection-end="1593" vertical-scroll-proportion="0.3079646" vertical-offset="608" max-vertical-offset="3519">
+        <state line="48" column="40" selection-start="1635" selection-end="1635" vertical-scroll-proportion="0.39823008" vertical-offset="591" max-vertical-offset="3519">
           <folding />
         </state>
       </provider>

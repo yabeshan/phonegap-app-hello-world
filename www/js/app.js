@@ -46,12 +46,12 @@ Ext.define('App.view.StartPage' ,{
 //                                });
 //                            }
 
-//                            Ext.getCmp('StartPagePanel').hidden = false;
+                            alert("swipe");
                             var mainMoveX = Math.floor( Math.random()*400 );
                             var style = {};
 
-//                            style['-webkit-transform'] = 'translate3d(' + mainMoveX + 'px, 0, 0)';
-                            style['-webkit-transform'] = 'translateX(' + mainMoveX + 'px)';
+                            style['-webkit-transform'] = 'translate3d(' + mainMoveX + 'px, 0, 0)';
+//                            style['-webkit-transform'] = 'translateX(' + mainMoveX + 'px)';
                             style['-webkit-transition'] = 'all .5s ease-in-out';
 
                             Ext.getCmp('StartPagePanel').setStyle(style);
