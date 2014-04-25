@@ -3,18 +3,14 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.phonegap.helloworld"
+        id        = "com.yabeshan.helloworld"
         version   = "1.0.0">
 
-    <name>HelloWorld</name>
+    <name>PhonegapSenchaTouch</name>
 
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Build PhoneGap 3.4 + Sencha Touch 2.3
     </description>
-
-    <author href="http://phonegap.com" email="support@phonegap.com">
-        PhoneGap Team
-    </author>
 
     <!--
         Enable individual API permissions here.
