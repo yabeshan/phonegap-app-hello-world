@@ -1,6 +1,7 @@
 
 
 /**************************************************** CONTROLLER ******************************************/
+
 Ext.define('App.controller.PageController', {
     extend: 'Ext.app.Controller',
 
@@ -33,7 +34,7 @@ Ext.define('App.view.StartPage' ,{
     config: {
         items:[
             {
-                html: '<div style="position:absolute;background-color:#aaf;height:100%;width:100%">Text</div>',
+                html: '<div class="page start-page"><p>Start Page.</p><p>Swipe for move "Unvisible Panel".</p></div>',
                 listeners: {
                     swipe: {
                         fn: function( e ) {
@@ -45,19 +46,21 @@ Ext.define('App.view.StartPage' ,{
 //                                });
 //                            }
 
-                            var mainMoveX = Math.floor( Math.random()*200 );
+//                            Ext.getCmp('StartPagePanel').hidden = false;
+                            var mainMoveX = Math.floor( Math.random()*400 );
                             var style = {};
 
-                            style['-webkit-transform'] = 'translate3d(' + mainMoveX + 'px, 0, 0)';
+//                            style['-webkit-transform'] = 'translate3d(' + mainMoveX + 'px, 0, 0)';
+                            style['-webkit-transform'] = 'translateX(' + mainMoveX + 'px)';
                             style['-webkit-transition'] = 'all .5s ease-in-out';
-                            var mainEl = Ext.getCmp('StartPagePanel').element;
-                            mainEl.setStyle(style);
+
+                            Ext.getCmp('StartPagePanel').setStyle(style);
                         },
                         element: 'innerElement'
                     }
                 }
             },{
-                html: '<div style="position:absolute;background-color:#900;height:200px">Text</div>',
+                html: '<div class="button navig-button">Next Page</div>',
                 listeners: {
                     tap: {
                         fn: function( e ) {
@@ -96,7 +99,7 @@ Ext.define('App.view.MainPage' ,{
     config: {
         items:[
             {
-                html: '<div style="position:absolute;background-color:#afa;height:100%;width:100%">Main page</div>',
+                html: '<div class="page main-page"><p>Main page.</p><p>Swipe to right for prev page</p> </div>',
                 listeners: {
                     swipe: {
                         fn: function( e ) {
@@ -112,7 +115,7 @@ Ext.define('App.view.MainPage' ,{
                     }
                 }
             },{
-                html: '<div style="position:absolute;background-color:#090;height:200px">Text</div>',
+                html: '<div class="button navig-button">Prev page</div>',
                 listeners: {
                     tap: {
                         fn: function( e ) {
@@ -149,7 +152,7 @@ Ext.define('App.view.MainPagePanel' ,{
 
     config: {
         items:[{
-            html: '<div style="position:absolute;top:200px;background-color:#f99;height:10%;width:10%">Unvisible Panel</div>'
+            html: '<div class="panel unvisible-panel">Unvisible Panel</div>'
         }]
     }
 });

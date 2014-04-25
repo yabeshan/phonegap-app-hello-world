@@ -39,3 +39,33 @@ body {
     }
 }
 
+
+.page {
+    position:absolute;height:100%;width:100%;text-align: center;
+}
+.start-page {
+    background-color:#aaf;
+}
+.main-page {
+    background-color:#afa;
+}
+
+
+.button {
+    position:absolute;background-color:#999;height:200px;width:200px;text-align:center;padding-top: 80px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #BBB;
+}
+.navig-button {
+    top:100px;right: 10px;
+}
+
+
+.panel {
+    position:absolute;background-color:#f99;
+}
+.unvisible-panel {
+    top:200px;height:10%;width:10%;
+}
